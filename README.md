@@ -3,7 +3,7 @@
 
 This project demonstrates the deployment of **Brain Diseases** using Azure's ARM templates and load balancing across two Virtual Machines(VMs) in different zones for high availability and scalability.
 
-**Problem Statement**    
+****Problem Statement****    
 
 Your brain is your body’s control center. It’s part of the nervous system, which also includes the spinal cord and a large network of nerves and neurons. Together, the nervous system controls everything from your senses to the muscles throughout your body.
 
