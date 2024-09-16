@@ -65,9 +65,21 @@ sudo cp -r /tmp/mysitee/* /var/www/html/
 
 VM 2: Created in Availability Zone 2 with the same configuration as VM 1.
 
+**5. Load Balancer Configuration**
 
+**Load Balancer**: Configured to distribute traffic between VM 1 and VM 2.
+      **-Frontend IP Configuration**: Assigned a new frontend IP for external 
+      access.
+      **-Backend Pool**: Added both VMs to the backend pool for traffic 
+      distribution.
+      **-Load Balancing Rule**: Defined to balance HTTP traffic (port 80) across 
+      the VMs.
+      **-Health Probe**: Set up to monitor the health of the VMs and ensure 
+      traffic is routed only to healthy VMs.
 
+**6. Testing and Accessing the Website**
 
+After the load balancer deployment, the website became accessible via the frontend IP of the load balancer.
 
 
 
