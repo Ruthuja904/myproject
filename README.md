@@ -83,6 +83,11 @@ After the load balancer deployment, the website became accessible via the fronte
 
 
 
+**Screenshots: Created Resource Group Screenshot**
+
+
+
+
 
 
 
